@@ -1,0 +1,24 @@
+#titulo {
+  color: white;
+}
+
+body {
+  background-color: #2c3e50;
+}
+
+.listas {
+  color: white;
+}
+
+.dias {
+  border: 2px 1px black solid;
+  background-color: #f1c40f;
+}
+
+#aularepeat {
+  color: #e74c3c;
+}
+
+#diasemana {
+  color: #f1c40f;
+}

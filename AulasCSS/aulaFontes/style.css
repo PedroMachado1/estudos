@@ -1,0 +1,15 @@
+#a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#b {
+  border: 2px solid;
+  padding: 10px;
+  margin-left: 500px;
+  margin-right: 500px;
+}

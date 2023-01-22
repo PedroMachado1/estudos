@@ -1,0 +1,9 @@
+body {
+  background-image: url("https://s2.glbimg.com/yOEumqhOHlJpZ5Vm9scVL4q6c2U=/e.glbimg.com/og/ed/f/original/2021/05/07/capa_foguete_china.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  border: 2px dashed cyan;
+}

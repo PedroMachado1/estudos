@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="exSite.html"
+          ><img src="./Materiais/logo.png" alt="SpaceX"
+        /></a>
+        <a href="naves.html">The Spaceships</a> /
+        <a href="contato.html">Hire Us</a>
+      </nav>
+      <hr />
+    </header>
+
+    <div>
+      <h1>Hire Us Now</h1>
+
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+        eum! Quidem recusandae repellat voluptatum, ducimus hic unde obcaecati!
+      </p>
+    </div>
+
+    <div>
+      <form action="">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" required /> -
+          <label for="email">Email:</label>
+          <input type="text" id="email" required />
+        </div>
+
+        <br />
+        <div>
+          <label for="spaceships">Spaceships:</label>
+          <input list="naves" id="spaceships" required />
+          <datalist id="naves">
+            <option value="Falcon 9"></option>
+            <option value="Falcon Heavy"></option>
+          </datalist>
+          /
+
+          <label for="serv">Type of Services:</label>
+          <input type="search" id="serv" list="services" required />
+          <datalist id="services">
+            <option value="Lorem ipsum dolor sit"></option>
+            <option value="cum eius molestias"></option>
+            <option value="molestiae vitae totam"></option>
+            <option value="voluptates ab distinctio"></option>
+          </datalist>
+        </div>
+        <br />
+        <input type="submit" name="submit" value="Send Message" />
+      </form>
+    </div>
+  </body>
+</html>

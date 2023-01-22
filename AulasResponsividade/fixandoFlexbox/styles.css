@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: darkgray;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(./images/Kerfin7_NEA_2341.jpg);
+}
+
+.logo {
+  width: 40px;
+  display: flex;
+  margin-left: 10px;
+}
+.logo2 {
+  width: 300px;
+  display: flex;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  text-underline-offset: none;
+  color: white;
+}
+
+.menu {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.menu:hover {
+  border-color: red;
+}
+
+.header {
+  flex-basis: 100%;
+  border: 2px solid black;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.footer {
+  flex-basis: 100%;
+  border: 2px solid black;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph {
+  font-size: 30px;
+}
+
+.conteudop {
+  display: flex;
+  background-color: darkgrey;
+  padding: 20px;
+  flex: 1 0 auto;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/Kerfin7_NEA_2341.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item {
+  width: 400px;
+  height: 300px;
+  border: 2px solid black;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover {
+  width: 400px;
+  height: 310px;
+  border: 5px solid black;
+  transition: 0.4s;
+}
+
+.cover:hover {
+  border-color: red;
+}
