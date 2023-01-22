@@ -10,6 +10,7 @@
   flex-direction: column;
   min-height: 100vh;
   background-image: url(./images/Kerfin7_NEA_2341.jpg);
+  background-size: 100% 100%;
 }
 
 .logo {
